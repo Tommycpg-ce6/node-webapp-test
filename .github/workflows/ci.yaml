@@ -6,7 +6,7 @@ on: [workflow_dispatch]
 #       - main
 
 env:            
-  AWS_REGION: #replace-value      
+  AWS_REGION: ap-southeast-1 #replace-value      
   ECR_REPOSITORY: #replace-value
 
 jobs:
