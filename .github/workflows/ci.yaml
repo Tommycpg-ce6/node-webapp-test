@@ -27,7 +27,6 @@ jobs:
       - name: Test
         id: test-image
         run: |
-        uses: aws-actions/amazon-ecr-login@v1
         
       - name: Build, tag, and push image to Amazon ECR
         id: push-image
